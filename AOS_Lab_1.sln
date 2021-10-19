@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOS.Client", "AOS.Client\AOS.Client.csproj", "{0FBAB691-911C-4F45-B64D-2BF17BF10DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOS.Server", "AOS.Server\AOS.Server.csproj", "{A3F1F431-0E4F-43D8-ABA3-7A0CFE860A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOS.Common", "AOS.Common\AOS.Common.csproj", "{5DA6D546-159D-44BA-B9F5-20F07BF7C2DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FBAB691-911C-4F45-B64D-2BF17BF10DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBAB691-911C-4F45-B64D-2BF17BF10DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBAB691-911C-4F45-B64D-2BF17BF10DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBAB691-911C-4F45-B64D-2BF17BF10DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F1F431-0E4F-43D8-ABA3-7A0CFE860A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F1F431-0E4F-43D8-ABA3-7A0CFE860A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F1F431-0E4F-43D8-ABA3-7A0CFE860A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F1F431-0E4F-43D8-ABA3-7A0CFE860A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA6D546-159D-44BA-B9F5-20F07BF7C2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA6D546-159D-44BA-B9F5-20F07BF7C2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA6D546-159D-44BA-B9F5-20F07BF7C2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA6D546-159D-44BA-B9F5-20F07BF7C2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
