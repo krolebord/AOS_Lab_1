@@ -43,7 +43,7 @@ namespace AOS.Server.Implementations
 
                     var handler = Context.ServiceProvider.GetRequiredService<IClientHandler>();
 
-                    await handler.Handle(client, cancellationTokenSource.Token);
+                    _ = Task.Run(() => handler.Handle(client, cancellationTokenSource.Token), cancellationTokenSource.Token);
                 }
             }
             catch (Exception e)
